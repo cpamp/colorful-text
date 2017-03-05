@@ -1,0 +1,23 @@
+{
+  "name": "colorful-text",
+  "version": "0.0.1",
+  "description": "Colorful text for node console.",
+  "main": "bin/lib/colorful.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpamp21/colorful-text.git"
+  },
+  "author": "Clint Pamperin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cpamp21/colorful-text/issues"
+  },
+  "homepage": "https://github.com/cpamp21/colorful-text#readme",
+  "devDependencies": {
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.2.1"
+  }
+}
