@@ -2,7 +2,8 @@
   "name": "colorful-text",
   "version": "0.0.1",
   "description": "Colorful text for node console.",
-  "main": "bin/lib/colorful.js",
+  "main": "bin/lib/Colorful.js",
+  "types": "bin/lib/Colorful.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
