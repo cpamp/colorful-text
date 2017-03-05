@@ -1,3 +1,33 @@
-import * as Colorful from '../lib/colorful';
+import * as colors from '../lib/colorful';
 
-console.log(Colorful.bold(Colorful.fg.red("Hello " + Colorful.bg.cyan("world"))) + ", goodbye");
+console.log(
+    colors.blink('blink'),
+    colors.blinkFast('blinkFast'),
+    colors.bold('bold'),
+    colors.encircled('encircled'),
+    colors.faint('faint'),
+    colors.framed('framed'),
+    colors.hidden('hidden'),
+    colors.italic('italic'),
+    colors.overlined('overlined'),
+    colors.reset('reset'),
+    colors.reverse('reverse'),
+    colors.strike('strike'),
+    colors.underline('underline'),
+    colors.fg.black('black'),
+    colors.fg.blue('blue'),
+    colors.fg.cyan('cyan'),
+    colors.fg.green('green'),
+    colors.fg.magenta('magenta'),
+    colors.fg.red('red'),
+    colors.fg.white('white'),
+    colors.fg.yellow('yellow'),
+    colors.bg.black('black'),
+    colors.bg.blue('blue'),
+    colors.bg.cyan('cyan'),
+    colors.bg.green('green'),
+    colors.bg.magenta('magenta'),
+    colors.bg.red('red'),
+    colors.bg.white('white'),
+    colors.bg.yellow('yellow')
+);
